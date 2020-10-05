@@ -14404,6 +14404,12 @@ img {
   line-height: 3.8rem;
 }
 
+@media (max-width: 767.98px) {
+  .line-height-md, h2 {
+    line-height: 2.8rem;
+  }
+}
+
 .line-height-lg {
   line-height: 5rem;
 }
