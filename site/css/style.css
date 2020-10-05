@@ -14617,6 +14617,7 @@ img {
 @media (max-width: 767.98px) {
   .problem-content__note-img {
     margin: 0 auto;
+    width: 240px;
   }
 }
 
