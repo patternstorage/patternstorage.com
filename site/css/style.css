@@ -9,7 +9,7 @@
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
-  --pink: #FF0072;
+  --pink: #E61673;
   --red: #dc3545;
   --orange: #fd7e14;
   --yellow: #ffc107;
@@ -500,7 +500,7 @@ mark,
 
 code {
   font-size: 87.5%;
-  color: #FF0072;
+  color: #E61673;
   word-break: break-word;
 }
 
@@ -14388,7 +14388,7 @@ img {
   }
 }
 
-.text-sm, .text-gray, .navbar, .footer {
+.text-sm, .text-gray, .footer {
   font-size: 0.82075rem;
 }
 
@@ -14396,7 +14396,7 @@ img {
   font-size: 0.6rem;
 }
 
-.text-md, .title-sm-en {
+.text-md, .title-sm-en, .contact-content a {
   font-size: 1.3rem;
 }
 
@@ -14448,7 +14448,7 @@ img {
 }
 
 .pink-button {
-  background-color: #FF0072;
+  background-color: #E61673;
   color: #fff;
   padding: 21px;
   border-radius: 50px;
@@ -14475,7 +14475,7 @@ img {
 }
 
 .pink {
-  color: #FF0072 !important;
+  color: #E61673 !important;
 }
 
 .bg-beige, .problem-content {
@@ -14677,6 +14677,27 @@ img {
 @media (max-width: 991.98px) {
   .service-content .row .col-md-3 br {
     display: none;
+  }
+}
+
+.contact-content {
+  text-align: center;
+}
+
+@media (max-width: 991.98px) {
+  .contact-content {
+    text-align: left;
+  }
+}
+
+.contact-content a {
+  display: block;
+  margin-bottom: 70px;
+}
+
+@media (max-width: 991.98px) {
+  .contact-content a {
+    margin-bottom: 50px;
   }
 }
 

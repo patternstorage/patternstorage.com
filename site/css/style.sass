@@ -141,7 +141,6 @@ img
             width: 230px
 .navbar
     padding: 0
-    @extend .text-sm
     +media-breakpoint-down(sm)
         background-color: $white
 .navbar-nav
@@ -232,6 +231,16 @@ img
             br
                 +media-breakpoint-down(md)
                     display: none
+.contact-content
+    text-align: center
+    +media-breakpoint-down(md)
+        text-align: left
+    a
+        display: block
+        margin-bottom: 70px
+        @extend .text-md
+        +media-breakpoint-down(md)
+            margin-bottom: 50px
 .flow-x-img
     margin-bottom: 120px
     img
