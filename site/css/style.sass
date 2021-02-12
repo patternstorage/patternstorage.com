@@ -176,7 +176,6 @@ img
 //プロブレムコンテンツ
 .problem-content
     @extend .bg-beige
-    @extend .py-12
     @extend .position-center
     margin-bottom: 50px
     &__note-img
@@ -213,14 +212,12 @@ img
                 width: 100%
 //サービスコンテンツ
 .service-content
-    @extend .py-12
     @extend .position-center
     @extend .spacer-bottom--md
     br
         +media-breakpoint-down(md)
             display: none
     .row
-        @extend .spacer-bottom--lg
         .col-md-3
             +media-breakpoint-down(md)
                 margin-bottom: 50px

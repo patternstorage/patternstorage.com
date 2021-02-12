@@ -9017,9 +9017,7 @@ button.bg-dark:focus {
 }
 
 .pt-12,
-.py-12,
-.problem-content,
-.service-content {
+.py-12 {
   padding-top: 5.5rem !important;
 }
 
@@ -9029,9 +9027,7 @@ button.bg-dark:focus {
 }
 
 .pb-12,
-.py-12,
-.problem-content,
-.service-content {
+.py-12 {
   padding-bottom: 5.5rem !important;
 }
 
@@ -14428,12 +14424,12 @@ img {
   }
 }
 
-.spacer-bottom--lg, .eye-catch, .service-content .row {
+.spacer-bottom--lg, .eye-catch {
   margin-bottom: 140px;
 }
 
 @media (max-width: 767.98px) {
-  .spacer-bottom--lg, .eye-catch, .service-content .row {
+  .spacer-bottom--lg, .eye-catch {
     margin-bottom: 100px;
   }
 }
